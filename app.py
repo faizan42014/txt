@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline
 
-summarizer = pipeline("summarization", model="text_summarizer", device=-1)
+summarizer = pipeline("summarization", device=-1)
 
 hide_streamlit_style = """
             <style>
