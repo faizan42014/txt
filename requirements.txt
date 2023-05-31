@@ -1,0 +1,3 @@
+transformers==4.29.2
+tensorflow==2.10.0
+streamlit==1.22.0
